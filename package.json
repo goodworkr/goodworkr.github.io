@@ -1,0 +1,27 @@
+{
+  "name": "goodworkr.github.io",
+  "version": "1.0.0",
+  "description": "Goodworkr.com website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodworkr/goodworkr.github.io.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/goodworkr/goodworkr.github.io/issues"
+  },
+  "homepage": "https://github.com/goodworkr/goodworkr.github.io#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
