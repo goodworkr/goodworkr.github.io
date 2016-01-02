@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .w960 {
     max-width: 960px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 a, a:hover {
@@ -34,17 +34,17 @@ img {
 
 /*---------------------------------------------------- 	Menu------------------------------------------------------*/
 .isFixed {
-    left: 0px;
+    left: 0;
     width: 100%;
 }
 
 .menu {
-    margin-top: 0px;
+    margin-top: 0;
     position: absolute;
     z-index: 999;
     margin-top: 20px;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     bottom: 0;
 }
 
@@ -82,14 +82,14 @@ img {
 
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
 .navbar-wrapper {
-    margin-top: 0px;
+    margin-top: 0;
     height: 80px;
     position: relative;
     z-index: 15;
 }
 
 .navbar-wrapper .container {
-    padding: 0px;
+    padding: 0;
 }
 
 .navbar-collapse {
@@ -100,8 +100,8 @@ img {
     max-height: 100%;
 }
 
-.navbar.navbar-inverse.navbar-static-top {
-    margin: 0px auto;
+.navbar.navbar-inverse.navbar-fixed-top {
+    margin: 0 auto;
     background: none;
     color: #c3c8d6;
     border: none;
@@ -109,16 +109,17 @@ img {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
+    background: #111;
 }
 
-.navbar.navbar-inverse.navbar-static-top a {
+.navbar.navbar-inverse.navbar-fixed-top a {
     color: #fff;
     padding: 31px 16px;
     line-height: 18px;
     text-align: center;
 }
 
-.navbar.navbar-inverse.navbar-static-top a:hover {
+.navbar.navbar-inverse.navbar-fixed-top a:hover {
     background: none;
     color: #fff;
 }
@@ -136,36 +137,19 @@ img {
     display: none;
 }
 
-.isFixed .navbar-inverse .navbar-nav > .active > a, .isFixed .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus {
     background: #cc580c;
     color: #fff;
 }
 
-.isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
+.navbar.navbar-inverse.navbar-fixed-top a:hover {
     background: #cc580c;
     color: #fff;
 }
 
-.isFixed .navbar.navbar-inverse.navbar-static-top a {
+.navbar.navbar-inverse.navbar-fixed-top a {
     color: #fff;
-}
-
-.stuckMenu {
-    -o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    background: #111;
-}
-
-.isFixed {
-    background: #333;
-    -o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
 }
 
 .collapse {
@@ -177,7 +161,7 @@ img {
         background: #333;
     }
 
-    .navbar.navbar-inverse.navbar-static-top a {
+    .navbar.navbar-inverse.navbar-fixed-top a {
         padding: 15px 16px;
         line-height: 15px;
         font-size: 13px;
@@ -217,7 +201,7 @@ header {
     padding-bottom: 15px;
     text-align: center;
     max-width: 960px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding-top: 80px;
 }
 
@@ -254,7 +238,7 @@ img#site-title {
     position: relative;
     width: 90%;
     padding: 2em;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 40px;
     font-size: 12px;
 }
@@ -334,7 +318,7 @@ img#site-title {
 }
 
 .restitem p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .restmenuwrap h3.maincat {
@@ -364,7 +348,7 @@ img#site-title {
 
 .grid-gallery figcaption h3 {
     margin: 0;
-    padding: 0 0px 0;
+    padding: 0 0 0;
     color: #fff;
     font-size: 17px;
     font-weight: 300;
@@ -526,7 +510,7 @@ img#site-title {
 
 .slideshow nav span.nav-close {
     top: 75px;
-    right: 0px;
+    right: 0;
     padding: 10px 25px;
     color: #999;
 }
@@ -646,7 +630,7 @@ input.contact {
 }
 
 input.contact.noMarr {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 textarea.contact {
@@ -667,7 +651,7 @@ textarea.contact {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     border: none !important;
     border-radius: 3px;
 }
@@ -721,7 +705,7 @@ textarea.contact {
     background: rgba(0, 0, 0, 0.2);
     color: #ffffff;
     line-height: 45px;
-    margin: 0 4px 0px;
+    margin: 0 4px 0;
     width: 45px !important;
     height: 45px !important;
     -webkit-border-radius: 3px;
@@ -778,7 +762,7 @@ textarea.contact {
 
 blockquote {
     font-style: italic;
-    margin: 0 0 0px 0;
+    margin: 0 0 0 0;
     padding: 20px 70px 10px;
     position: relative;
     font-size: 13px;
